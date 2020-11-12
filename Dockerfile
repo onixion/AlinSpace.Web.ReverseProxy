@@ -10,5 +10,5 @@ COPY ./config/reverse_proxy.conf /etc/nginx/sites-available/
 RUN mkdir -p /etc/nginx/sites-enabled
 RUN ln -s /etc/nginx/sites-available/reverse_proxy.conf /etc/nginx/sites-enabled/reverse_proxy.conf
 
-ENTRYPOINT [ "nginx", "-g", "daemon off;" ]
+ENTRYPOINT [ "nginx" ]
 
