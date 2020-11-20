@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Allow: /
+Allow: /pages
+Allow: /page
+Allow: /contact
+Allow: /donate
+Allow: /about
+Disallow: /impressum

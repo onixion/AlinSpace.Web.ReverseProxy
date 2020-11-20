@@ -1,5 +1,6 @@
 FROM nginx:1.19.4 as build-image
 
+COPY ./config/robots.txt /etc/nginx/robots.txt
 COPY ./config/nginx.conf /etc/nginx/
 
 RUN mkdir /etc/nginx/certificates
